@@ -18,3 +18,6 @@ eval.py中继承了skopt中的random forest，高斯代理模型的贝叶斯优�
 
 
 gryffin只能在mac或linux环境下使用
+
+
+two_prompts.py中result存的是类似coscientist的归一化结果，res存的是产量，在run_two_prompts.py中运行（否则每一轮查询之间不独立），所用的搜索空间搜索空间需要删去最后列，仅查询前三个变量
